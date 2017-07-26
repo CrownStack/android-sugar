@@ -28,4 +28,4 @@
 ### ProgressHelper
 
 * start(): To start ProgressDialog.
-* stop(): To stop ProgresDialog.
+* stop(): To stop ProgressDialog.
