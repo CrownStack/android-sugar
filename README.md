@@ -4,17 +4,17 @@
 
 * [FileUtils](https://github.com/CrownStack/android-sugar/blob/dev/README.md#fileutils)
 
-*[Gallery](https://github.com/CrownStack/android-sugar/blob/dev/README.md#gallery)
+* [Gallery](https://github.com/CrownStack/android-sugar/blob/dev/README.md#gallery)
 
-*[ImageHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#imagehelper)
+* [ImageHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#imagehelper)
 
-*[IntentHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#intenthelper)
+* [IntentHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#intenthelper)
 
-*[Message](https://github.com/CrownStack/android-sugar/blob/dev/README.md#message)
+* [Message](https://github.com/CrownStack/android-sugar/blob/dev/README.md#message)
 
-*[NetworkHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#networkhelper)
+* [NetworkHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#networkhelper)
 
-*[ProgressHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#progresshelper)
+* [ProgressHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#progresshelper)
 
 ### [FileUtils](https://github.com/CrownStack/android-sugar/blob/dev/FileUtils.java)
 
