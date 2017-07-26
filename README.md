@@ -6,7 +6,7 @@
 
 Ex: String path =  FileUtils.getPath(this, data.getData());
 
-### Gallery
+### [Gallery](https://github.com/CrownStack/android-sugar/blob/dev/Gallery.java)
 
 * openPhoto(): To choose image from Gallery.
 
@@ -31,7 +31,7 @@ Ex: @RequiresPermission(allOf = {Manifest.permission.READ_EXTERNAL_STORAGE, Mani
         }
     }
 
-### ImageHelper
+### [ImageHelper](https://github.com/CrownStack/android-sugar/blob/dev/ImageHelper.java)
 
 * getBitmapFromGalleryIntent(): Convert it into bitMap from gallery Intent.
 
@@ -44,7 +44,7 @@ Ex:     private void setPhoto(Intent data, int REQUEST) {
         }
     }
 
-### IntentHelper
+### [IntentHelper](https://github.com/CrownStack/android-sugar/blob/dev/IntentHelper.java)
 
 * openWebBrowserIntent(): By passing url it will open in web browser.
 
@@ -74,20 +74,20 @@ Ex: void callTapped() {
         });
     }
 
-### Message
+### [Message](https://github.com/CrownStack/android-sugar/blob/dev/Message.java)
 
 * message(): To show toast message.
 
 Ex:  Message.message(this, "Show message");
 
-### NetworkHelper
+### [NetworkHelper](https://github.com/CrownStack/android-sugar/blob/dev/NetworkHelper.java)
 
 * IsOn(): To check Internet connection.
 
 Ex: if (NetworkHelper.IsOn(this)) {Your code}
     else Message.message(this, "Check your internet connection.");
 
-### ProgressHelper
+### [ProgressHelper](https://github.com/CrownStack/android-sugar/blob/dev/ProgressHelper.java)
 
 * start(): To start ProgressDialog.
 
