@@ -1,6 +1,6 @@
 ##### Welcome to Sugar classes Gildelines:
 
-### FileUtils
+### [FileUtils] (https://github.com/CrownStack/android-sugar/blob/dev/FileUtils.java)
 
 * getPath(): To get file path from Uri.
 
