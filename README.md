@@ -1,6 +1,6 @@
 
 
-## Welcome to Sugar classes Gildelines:
+## Welcome to Sugar classes Guidelines:
 
 * [FileUtils](https://github.com/CrownStack/android-sugar/blob/dev/README.md#fileutils)
 * [Gallery](https://github.com/CrownStack/android-sugar/blob/dev/README.md#gallery)
