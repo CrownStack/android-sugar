@@ -1,6 +1,6 @@
 
 
-##### Welcome to Sugar classes Gildelines:
+## Welcome to Sugar classes Gildelines:
 
 ### [FileUtils](https://github.com/CrownStack/android-sugar/blob/dev/FileUtils.java)
 
