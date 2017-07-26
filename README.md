@@ -52,28 +52,8 @@ Ex: startActivity(IntentHelper.openWebBrowserIntent(CHAT_LINK));
 
 * callNumberIntent(): By passing phone number it will call.
 
-Ex: void callTapped() {
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-            Message.message(this, getString(R.string.go_to_setting));
-            return;
-        }
-        showConfirmPopUp();
-    }
-    
-    @RequiresPermission(Manifest.permission.CALL_PHONE)
-    private void showConfirmPopUp() {
-        PopUpHelper.showConfirmPopup(this, "Are you sure you want to call: \n 1-800-123-1234?", new PopUpHelper.ConfirmPopup() {
-            @Override
-            public void onConfirm(boolean isConfirm) {
-                if (isConfirm) startActivity(IntentHelper.callNumberIntent(1-800-123-1234));
-            }
-
-            @Override
-            public void onDismiss(boolean isDismiss) {
-            }
-        });
-    }
-
+Ex: startActivity(IntentHelper.callNumberIntent(1-800-123-1234));
+  
 ### [Message](https://github.com/CrownStack/android-sugar/blob/dev/Message.java)
 
 * message(): To show toast message.
