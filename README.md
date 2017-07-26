@@ -2,7 +2,7 @@
 
 ## Welcome to Sugar classes Gildelines:
 
-*[FileUtils](#start())
+* [FileUtils](#start():)
 
 
 ### [FileUtils](https://github.com/CrownStack/android-sugar/blob/dev/FileUtils.java)
