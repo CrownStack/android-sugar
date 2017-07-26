@@ -1,22 +1,20 @@
-package com.e2cc.sugar;
 
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.view.Window;
 
 public class ProgressHelper {
 
-    private static ProgressDialog dialog;
+    private static ProgressDialog mProgressDialog;
 
     public static void start(Context context, String message) {
-        dialog = new ProgressDialog(context);
-        dialog.setMessage(message);
-        dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-        dialog.setCancelable(false);
-        dialog.show();
+        mProgressDialog = new ProgressDialog(context);
+        mProgressDialog.setMessage(message);
+        mProgressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        mProgressDialog.setCancelable(false);
+        mProgressDialog.show();
     }
 
     public static void stop() {
-        if (dialog.isShowing()) dialog.dismiss();
+        if (mProgressDialog.isShowing()) mProgressDialog.dismiss();
     }
 }
