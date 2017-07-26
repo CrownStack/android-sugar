@@ -24,9 +24,9 @@
 
 ### [IntentHelper](https://github.com/CrownStack/android-sugar/blob/dev/IntentHelper.java)
 
-* openWebBrowserIntent(): By passing url it will open in web browser.
+* openWebBrowserIntent(String url): Open url in web browser.
 
-* callNumberIntent(): By passing phone number it will call.
+* callNumberIntent(String phoneNumber): Make a call on passing number.
   
 ### [Message](https://github.com/CrownStack/android-sugar/blob/dev/Message.java)
 
