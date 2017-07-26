@@ -1,6 +1,4 @@
 
-package com.e2cc.sugar;
-
 import android.app.Activity;
 import android.content.Intent;
 

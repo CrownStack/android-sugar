@@ -1,5 +1,3 @@
-package com.e2cc.sugar;
-
 import android.content.Context;
 import android.widget.Toast;
 

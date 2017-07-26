@@ -1,4 +1,3 @@
-package com.e2cc.sugar;
 
 import android.annotation.TargetApi;
 import android.content.ContentUris;
