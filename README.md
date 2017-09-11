@@ -9,6 +9,7 @@
 * [Message](https://github.com/CrownStack/android-sugar/blob/dev/README.md#message)
 * [NetworkHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#networkhelper)
 * [ProgressHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#progresshelper)
+* [AppPreference](https://github.com/CrownStack/android-sugar/blob/dev/README.md#appPreference)
 
 ### [FileUtils](https://github.com/CrownStack/android-sugar/blob/dev/FileUtils.java)
 * getPath(final Context context, final Uri uri): To get file path from Uri.
