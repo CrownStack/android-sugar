@@ -10,6 +10,7 @@
 * [NetworkHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#networkhelper)
 * [ProgressHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#progresshelper)
 * [AppPreference](https://github.com/CrownStack/android-sugar/blob/dev/README.md#appPreference)
+* [DialogHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#dialogHelper)
 
 ### [FileUtils](https://github.com/CrownStack/android-sugar/blob/dev/FileUtils.java)
 * getPath(final Context context, final Uri uri): To get file path from Uri.
@@ -38,3 +39,7 @@
 
 ### [AppPreference](https://github.com/CrownStack/android-sugar/blob/dev/AppPreference.java)
 To strore value in preferance, get and remove value from preferance.
+
+### [DialogHelper](https://github.com/CrownStack/android-sugar/blob/dev/DialogHelper.java)
+* showConfirmDialog(Activity activity, String message): show confirmation dialog.
+* showAlertDialog(Activity activity, String message): show alert dialog.
