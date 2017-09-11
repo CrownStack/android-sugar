@@ -34,3 +34,6 @@
 ### [ProgressHelper](https://github.com/CrownStack/android-sugar/blob/dev/ProgressHelper.java)
 * start(Context context, String message): To start ProgressDialog.
 * stop(): To stop ProgressDialog.
+
+### [AppPreference](https://github.com/CrownStack/android-sugar/blob/dev/AppPreference.java)
+To strore value in preferance, get and remove value from preferance.
