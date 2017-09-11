@@ -12,6 +12,7 @@
 * [AppPreference](https://github.com/CrownStack/android-sugar/blob/dev/README.md#appPreference)
 * [DialogHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#dialogHelper)
 * [StringUtils](https://github.com/CrownStack/android-sugar/blob/dev/README.md#stringUtils)
+* [FontHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#fontHelper)
 
 ### [FileUtils](https://github.com/CrownStack/android-sugar/blob/dev/FileUtils.java)
 * getPath(final Context context, final Uri uri): To get file path from Uri.
@@ -47,3 +48,6 @@ To strore value in preferance, get and remove value from preferance.
 
 ### [StringUtils](https://github.com/CrownStack/android-sugar/blob/dev/StringUtils.java)
 * isValidEmail(String emailId): check emailId format is valid or not.
+
+### [FontHelper](https://github.com/CrownStack/android-sugar/blob/dev/FontHelper.java)
+* setFontFace(FontType fontType, View... views): pass view to apply font.
