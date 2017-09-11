@@ -31,6 +31,9 @@
 
 ### [Message](https://github.com/CrownStack/android-sugar/blob/dev/Message.java)
 * message(Context context, String message): To show toast message.
+* createSnackbar(Context context, View view, String message) : To show snack bar for LENGTH_LONG.
+* createSnackbarIndefinite(Context context, View view, String message) : To show snack bar LENGTH_INDEFINITE.
+* createSnackbarMultiLine(Context context, View view, String message) : To show snck bar upto 999 lines.
 
 ### [NetworkHelper](https://github.com/CrownStack/android-sugar/blob/dev/NetworkHelper.java)
 * IsOn(final Context ctx): To check Internet connection.
