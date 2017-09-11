@@ -11,6 +11,7 @@
 * [ProgressHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#progresshelper)
 * [AppPreference](https://github.com/CrownStack/android-sugar/blob/dev/README.md#appPreference)
 * [DialogHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#dialogHelper)
+* [StringUtils](https://github.com/CrownStack/android-sugar/blob/dev/README.md#stringUtils)
 
 ### [FileUtils](https://github.com/CrownStack/android-sugar/blob/dev/FileUtils.java)
 * getPath(final Context context, final Uri uri): To get file path from Uri.
@@ -43,3 +44,6 @@ To strore value in preferance, get and remove value from preferance.
 ### [DialogHelper](https://github.com/CrownStack/android-sugar/blob/dev/DialogHelper.java)
 * showConfirmDialog(Activity activity, String message): show confirmation dialog.
 * showAlertDialog(Activity activity, String message): show alert dialog.
+
+### [StringUtils](https://github.com/CrownStack/android-sugar/blob/dev/StringUtils.java)
+* isValidEmail(String emailId): check emailId format is valid or not.
