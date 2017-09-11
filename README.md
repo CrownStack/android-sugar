@@ -22,7 +22,9 @@
 ### [IntentHelper](https://github.com/CrownStack/android-sugar/blob/dev/IntentHelper.java)
 * openWebBrowserIntent(String url): Open url in web browser.
 * callNumberIntent(String phoneNumber): Make a call on passing number.
-  
+* gmailIntent(String[] addresses, String subject, String body) : send email via gmail.
+* shareIntent(String message, String chooserDialogTitle) : open share intent.
+
 ### [Message](https://github.com/CrownStack/android-sugar/blob/dev/Message.java)
 * message(Context context, String message): To show toast message.
 
@@ -32,4 +34,3 @@
 ### [ProgressHelper](https://github.com/CrownStack/android-sugar/blob/dev/ProgressHelper.java)
 * start(Context context, String message): To start ProgressDialog.
 * stop(): To stop ProgressDialog.
-
