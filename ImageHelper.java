@@ -18,4 +18,10 @@ public class ImageHelper {
 
         return null;
     }
+
+    public void display(Activity activity, String imgUri, ImageView imageView, int placeHolder) {
+        if (!TextUtils.isEmpty(imgUri)) {
+            Picasso.with(activity).load(imgUri).placeholder(placeHolder).into(imageView);
+        }
+    }
 }
