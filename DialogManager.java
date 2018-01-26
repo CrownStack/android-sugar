@@ -1,4 +1,3 @@
-package com.runtimepermissiondemo.dialog;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -36,6 +35,7 @@ public class DialogManager {
     private void showAlert(final Builder builder) {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(mContext).setTitle(mTitle);
         alertDialogBuilder.setTitle(mTitle).setMessage(mMessage);
+
         if (mShowPositiveButton) {
             alertDialogBuilder.setPositiveButton(mPositiveButtonText, new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int which) {
@@ -66,12 +66,13 @@ public class DialogManager {
 
         AlertDialog alertDialog = alertDialogBuilder.create();
         alertDialog.show();
+
         if (builder.mPositiveButtonColor != null)
             alertDialog.getButton(DialogInterface.BUTTON_POSITIVE).setTextColor(builder.mPositiveButtonColor);
+
         if (builder.mNegativeButtonColor != null)
             alertDialog.getButton(DialogInterface.BUTTON_NEGATIVE).setTextColor(builder.mNegativeButtonColor);
     }
-
 
     public static class Builder {
         private Context mContext;
@@ -159,7 +160,6 @@ public class DialogManager {
 
     public interface IConfirmListener {
         void onConfirm();
-
         void onDismiss();
     }
 }
