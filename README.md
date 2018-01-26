@@ -11,6 +11,7 @@
 * [ProgressHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#progresshelper)
 * [AppPreference](https://github.com/CrownStack/android-sugar/blob/dev/README.md#appPreference)
 * [DialogHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#dialogHelper)
+* [DialogManager](https://github.com/CrownStack/android-sugar/blob/dev/README.md#dialogManager)
 * [StringUtils](https://github.com/CrownStack/android-sugar/blob/dev/README.md#stringUtils)
 * [FontHelper](https://github.com/CrownStack/android-sugar/blob/dev/README.md#fontHelper)
 
@@ -49,6 +50,24 @@ To strore value in preferance, get and remove value from preferance.
 ### [DialogHelper](https://github.com/CrownStack/android-sugar/blob/dev/DialogHelper.java)
 * showConfirmDialog(Activity activity, String message): show confirmation dialog.
 * showAlertDialog(Activity activity, String message): show alert dialog.
+
+### [DialogManager](https://github.com/CrownStack/android-sugar/blob/dev/DialogManager.java)
+* showDialog
+  ```
+   new DialogManager.Builder().setContext(this)
+                .setTitle("Title Message")
+                .setMessage("Message")
+                .setIcon(getResources().getDrawable(R.mipmap.ic_launcher))
+                .setNegativeButton(true)
+                .setPositiveButtonColor(android.R.color.holo_orange_light)
+                .setInfoListener(new DialogManager.IInfoListener() {
+                    @Override
+                    public void onConfirm() {
+                        
+                    }
+                })
+                .build();
+   ```
 
 ### [StringUtils](https://github.com/CrownStack/android-sugar/blob/dev/StringUtils.java)
 * isValidEmail(String emailId): check emailId format is valid or not.
